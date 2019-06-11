@@ -1,0 +1,29 @@
+{
+  "name": "@saber2pr/gen-comp",
+  "version": "0.0.1",
+  "description": "___",
+  "repository": {
+    "type": "git",
+    "url": "git+___"
+  },
+  "author": "saber2pr",
+  "license": "ISC",
+  "bin": {
+    "genComp": "./lib/index.js"
+  },
+  "files": [
+    "lib/core/*",
+    "lib/index.*"
+  ],
+  "scripts": {
+    "test": "node ./lib/test/test",
+    "app": "node ./lib/index.js src/comps two-side link",
+    "start": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@saber2pr/node": "^0.2.4"
+  }
+}
