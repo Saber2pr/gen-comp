@@ -1,13 +1,24 @@
 # @saber2pr/gen-comp
 
-> ___
+> generate an component for the react.
 
 ```bash
 # from npm
 npm install @saber2pr/gen-comp
 
 # from github
-git clone ___
+git clone https://github.com/Saber2pr/gen-comp.git
+```
+
+# Usage
+
+```bash
+genComp <components-dir> <component-name>
+
+genComp src/components myComp
+genComp src/components myComp1 myComp2
+
+npx @saber2pr/gen-comp src/components myComp
 ```
 
 ---
@@ -15,17 +26,15 @@ git clone ___
 ## start
 
 ```bash
-# install the typescript and webpack
 npm install
 ```
 
 ```bash
-# auto compile to commonjs
 npm start
 
-# auto compile to es5
-npm run dev
+npm test
 
+npm run app
 ```
 
 > Author: saber2pr
@@ -36,26 +45,6 @@ npm run dev
 
 > you should write ts in /src
 
-> ts -(tsc)-> commonjs -(webpack)-> es5
-
 > you should make test in /src/test
 
 > export your core in /src/index.ts!
-
----
-
-## publish
-
-> Before publish, there are some items in package.json should to be updated below:
-
-1. name
-2. version
-3. description
-4. repository(url)
-5. author
-
-```bash
-# if all is well, try:
-npm publish
-```
-

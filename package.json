@@ -1,10 +1,10 @@
 {
   "name": "@saber2pr/gen-comp",
   "version": "0.0.1",
-  "description": "___",
+  "description": "> generate an component for the react.",
   "repository": {
     "type": "git",
-    "url": "git+___"
+    "url": "git+https://github.com/Saber2pr/gen-comp.git"
   },
   "author": "saber2pr",
   "license": "ISC",
